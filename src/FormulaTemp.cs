@@ -1,22 +1,22 @@
 class FormulaTemp{
     public static string F_to_C_Formula(double F)
     {
-        return $"({F} - 32) * 5 / 9";
+        return $"\n[({F:F3} - 32) * 5 / 9]";
     }
 
     public static string C_to_F_Formula(double C)
     {
-        return $"({C} * 9 / 5) + 32";
+        return $"\n[({C:F3} * 9 / 5) + 32]";
     }
 
     public static string C_to_K_Formula(double C)
     {
-        return $"{C} + 273.15";
+        return $"\n[{C:F3} + 273.15]";
     }
 
     public static string K_to_C_Formula(double K)
     {
-        return $"{K} - 273.15";
+        return $"\n[{K:F3} - 273.15]";
     }
     public static string K_to_F_Formula(double K)
     {
